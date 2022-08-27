@@ -19,7 +19,7 @@ function resultadoAluno(nota){
                     break;
                 }
             }
-            document.querySelector("#valorNota").innerHTML = `Aluno aprovado, nota arredondada para ${nota} pontos.`;
+            document.querySelector("#valorNota").innerHTML = `Aluno aprovado, nota final ${nota} pontos.`;
         }
     }
     else{
