@@ -23,6 +23,6 @@ function luidyMoura(num){
     }
 }
 
-const num = parseInt(document.getElementById('num').value);
+const num = parseFloat(document.getElementById('num').value);
 
 luidyMoura(num);
